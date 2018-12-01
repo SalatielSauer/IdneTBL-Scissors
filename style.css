@@ -1,0 +1,52 @@
+body {
+	background-color: #161619;
+}
+
+p {font-family: 'Ubuntu', sans-serif;}
+
+h3 {
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#keylevel {
+    background-color: #626286;
+    position: relative;
+    width: 3px;
+    left: 0px;
+    transition: left 0.5s;
+}
+
+#textval {
+	color: white;
+	z-index: 2;
+	position: relative;
+	display: inline;
+	transition: left 0.5s, color 0.5s;
+}
+
+#warning {
+	color: red;
+	visibility: hidden;
+}
+
+textarea {
+	color: white;
+    background-color: #353535;
+    border-color: black;
+    border-width: 3;
+    box-shadow: 0 0 16px 0px black;
+}
+
+button {
+	background-color: black;
+	color: white;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 0 0 13px 0px black;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+}
